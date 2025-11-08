@@ -8,6 +8,10 @@ nav a {
     display: block;
     padding: 20px;
 }
+
+h1{
+    color:rgb(70, 70, 70)
+}
 main{
     max-width: 840px;
 }
@@ -15,7 +19,7 @@ main{
 aside{
     width: 500px;
     margin: 50px;
-    border: 10px solid rgb(102, 101, 101);
+    border: 5px solid rgb(102, 101, 101);
     padding: 10px;
     background-color: rgb(196, 195, 195);
     color: black;
