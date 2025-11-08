@@ -19,9 +19,10 @@ aside{
     padding: 10px;
     background-color: rgb(196, 195, 195);
     color: black;
+    text-align: center;
 }
 
-main img {
+aside img {
     width: 200px;
     height: auto;
 }
