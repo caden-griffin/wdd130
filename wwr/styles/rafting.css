@@ -51,6 +51,17 @@ nav, p, article {
     position: relative;
 }
 
+.hero article {
+    bottom: 2px;
+    position: absolute;
+    width: 93%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent2-color);
+    opacity: 0.7;
+    color: #fff; /* white text - make sure there is enough contrast with the background color */
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -70,6 +81,5 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 250px;
+    width: 150px;
 }
-
