@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #ffffff; /* light gray */
+    --primary-color: #728285; /* light gray */
     --secondary-color: #353434; /* dark gray */
     --accent1-color: #02075a; /* dark blue */
     --accent2-color: #0155a3; /* light blue */
@@ -216,4 +216,62 @@ h1 {
 .contact-form-section button {
     margin-bottom: 12px;
     width: 100%;
+}
+
+.newsletter h2 {
+    margin: auto;
+}
+.newsletter {
+    margin-top: 30px;
+    display: flex;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+.trip-link h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.trip-link a{
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 30px;
+    border: 20px solid var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;       
+    max-width: 800px; 
+    margin: 0 auto;   
+}
+.trips-grid p {
+    text-align: center;
+}
+.trips-grid h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.trips-grid img {
+    justify-content: center;
+}
+
+.cta {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trips-table {
+    display: flex;
+    justify-content: center;
 }
