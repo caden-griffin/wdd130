@@ -147,3 +147,73 @@ h1 {
     float: right;
     width: 150px;
 }
+
+.contact-hero img {
+    position: relative;
+}
+
+.contact-hero {
+    position: relative;
+}
+
+.contact-hero h1 {
+    font-size: 25px;
+    color: #000000;
+    background: transparent;
+}
+
+.company-info {
+    bottom: 10px;
+    font-size: 1rem;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.employeepics {
+    border: 3px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+}
+
+.map {
+    margin: 10px;
+}
+
+.headers, footer{
+    background: #0f9eb8;
+}
+
+
+
+.contact-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.map iframe {
+    width: 450px;
+    height: 350px;
+    border: 0;
+}
+
+.contact-form-section {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-section label,
+.contact-form-section input,
+.contact-form-section textarea,
+.contact-form-section button {
+    margin-bottom: 12px;
+    width: 100%;
+}
